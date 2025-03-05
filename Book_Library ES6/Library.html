@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./Library.css" />
+  </head>
+  <body>
+    <h1>Book Library</h1>
+    <!--first page-->
+    <div id="Fcontainer">
+      <label class="booklabel">How Many books?</label>
+      <input
+        type="text"
+        class="bookNumber"
+        placeholder="Enter the number of books"
+      />
+      <button class="okbtn">OK</button>
+      <p>fdkjcxfkd</p>
+    </div>
+    <!--book form-->
+    <div id="Scontainer">
+      <p class="bookno"></p>
+      <label>Book Name</label>
+      <input
+        type="text"
+        placeholder="Enter Book Name"
+        style="margin-left: 115px"
+        id="bookName"
+      />
+      <p id="bookNameError"></p>
+      <label>Price</label>
+      <input
+        type="text"
+        placeholder="Enter Price"
+        style="margin-left: 170px"
+        id="bookPrice"
+      />
+      <p id="bookPriceError"></p>
+
+      <label>Author Name</label>
+      <input type="text" placeholder="Enter Author Name" id="authName" />
+      <p id="authNameError"></p>
+
+      <label>Author Email</label>
+      <input type="text" placeholder="Enter Author Email" id="authEmail" />
+      <p id="authEmailError"></p>
+
+      <button class="nextBook">Next Book</button>
+    </div>
+    <!--Table of data-->
+    <div id="Thcontainer">
+      <table>
+        <thead>
+          <tr>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Author Name</th>
+            <th>Author Email</th>
+            <th colspan="2">Actions</th>
+          </tr>
+          <tbody></tbody>
+        </thead>
+      </table>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

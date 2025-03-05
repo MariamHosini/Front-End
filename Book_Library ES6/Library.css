@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url(./—Pngtree—an\ old\ bookcase\ in\ a_2760144.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+  color: rgb(227, 219, 217);
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(227, 219, 217);
+}
+h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: rgb(227, 219, 217);
+}
+#Fcontainer {
+  border-radius: 20px;
+  margin: 100px auto;
+  width: 50vw;
+  height: 200px;
+  background-color: rgba(10, 4, 2, 0.6);
+  padding-top: 30px;
+}
+
+.booklabel {
+  padding: 20px;
+  color: rgb(231, 222, 219);
+  font-size: 30px;
+  display: block;
+  margin: 0px 200px;
+}
+.bookNumber {
+  border: 2px solid rgb(225, 96, 96);
+  width: 250px;
+  height: 30px;
+  padding: 0px 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+.bookNumber:focus {
+  outline-color: brown;
+}
+.okbtn {
+  cursor: pointer;
+  width: 100px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(118, 35, 35);
+  color: bisque;
+  border: none;
+  margin: 0px 5px;
+  font-size: 15px;
+}
+#Fcontainer p {
+  display: none;
+  font-size: 18px;
+  margin: 10px;
+  color: rgb(255, 94, 0);
+  margin: 10px 160px;
+}
+#Scontainer {
+  display: none;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 50vw;
+  height: 440px;
+  background-color: rgba(10, 4, 2, 0.6);
+  padding-top: 30px;
+}
+.bookno {
+  padding: 20px;
+  color: rgb(231, 222, 219);
+  font-size: 40px;
+  display: block;
+  margin: 0px 200px;
+  text-align: center;
+}
+#Scontainer label {
+  padding: 20px;
+  color: rgb(231, 222, 219);
+  font-size: 20px;
+  margin: 0px 10px;
+}
+#Scontainer input {
+  border: 2px solid rgb(225, 96, 96);
+  width: 250px;
+  height: 30px;
+  padding: 0px 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: 10px 100px;
+}
+#Scontainer input:focus {
+  outline-color: brown;
+}
+.nextBook {
+  cursor: pointer;
+  width: 150px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(118, 35, 35);
+  color: bisque;
+  border: none;
+  margin: 30px 275px;
+  font-size: 15px;
+}
+
+#bookNameError,
+#bookPriceError,
+#authEmailError,
+#authNameError,
+.error {
+  width: 300px;
+  display: none;
+  font-size: 16px;
+  color: rgb(255, 94, 0);
+  margin: 0px 280px;
+}
+#Thcontainer {
+  display: none;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 90vw;
+  height: 400px;
+  background-color: rgba(10, 4, 2, 0.6);
+  padding-top: 30px;
+}
+table {
+  background-color: blanchedalmond;
+  width: 80vw;
+  margin: 0px auto;
+  border: 2px solid rgb(195, 91, 12);
+  border-collapse: collapse;
+}
+th {
+  height: 40px;
+  width: 130px;
+}
+td {
+  width: 100px;
+  color: rgb(48, 22, 0);
+  text-align: center;
+  height: 50px;
+}
+th,
+td {
+  border: 2px solid rgb(195, 91, 12);
+}
+.input {
+  border: 1px solid rgb(225, 96, 96);
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  padding: 0px 20px;
+  background-color: rgb(242, 228, 210);
+  border-radius: 10px;
+  margin: 0px;
+}
+.input:focus {
+  outline-color: brown;
+}
+.error {
+  width: 120px;
+  display: none;
+  font-size: 10px;
+  color: rgb(255, 94, 0);
+  margin: 0px auto;
+}
+.Fourthcontainer {
+  display: none;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 90vw;
+  height: 300px;
+  background-color: rgba(10, 4, 2, 0.6);
+  padding-top: 30px;
+  height: 250px;
+  width: 700px;
+}
