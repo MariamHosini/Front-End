@@ -1,0 +1,50 @@
+<div
+  class="d-flex flex-column flex-lg-row flex-md-row contain justify-content-center align-items-center"
+>
+  <div
+    class="text-lg-center text-md-center text-start ps-lg-0 ps-md-0 ps-4 pt-3 pb-3 box"
+    [ngClass]="{ active: selectedIndex === 0 }"
+    (click)="setActive(0)"
+  >
+    <a>Excellent Services</a>
+  </div>
+  <div
+    class="text-lg-center text-md-center text-start ps-lg-0 ps-md-0 ps-4 pt-3 pb-3 box"
+    [ngClass]="{ active: selectedIndex === 1 }"
+    (click)="setActive(1)"
+  >
+    <a>Qualified Doctors</a>
+  </div>
+  <div
+    class="text-lg-center text-md-center text-start ps-lg-0 ps-md-0 ps-4 pt-3 pb-3 box"
+    [ngClass]="{ active: selectedIndex === 2 }"
+    (click)="setActive(2)"
+  >
+    <a>Emergency Departments</a>
+  </div>
+</div>
+<div
+  *ngIf="selectedIndex == 0 || selectedIndex == 1 || selectedIndex == 2"
+  class="d-flex justify-content-center contain2"
+  id="contain2"
+>
+  <div class="col-10 d-flex justify-content-center flex-wrap c">
+    <div class="col-12 col-lg-6 col-md-6">
+      <div class="k d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-kit-medical"></i>
+      </div>
+      <h3>Leading edge care for Your family</h3>
+      <p>
+        Esteem spirit temper too say adieus who direct esteem. It esteems
+        luckily picture placing drawing. Apartments frequently or motionless on
+        reasonable projecting expression.
+      </p>
+    </div>
+    <div class="col-12 col-lg-6 col-md-6 flex-wrap mt-lg-0 mt-md-0 mt-4">
+      <img
+        src="../../../assets/preview.colorlib.com-1740403278436/business.png"
+        class="col-12 h-100"
+      />
+    </div>
+  </div>
+</div>

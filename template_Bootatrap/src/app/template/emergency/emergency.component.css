@@ -1,0 +1,31 @@
+h3 {
+  font-size: 20px !important;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2em;
+}
+p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.h::before {
+  position: absolute;
+  content: "";
+  background-color: #5db2ff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+._btn {
+  font-size: 14px;
+}
+._btn:hover {
+  color: #5db2ff;
+}
+.k {
+  height: 120%;
+}

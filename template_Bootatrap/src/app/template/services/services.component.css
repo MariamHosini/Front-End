@@ -1,0 +1,63 @@
+.contain {
+  background-color: #edf7ff;
+}
+.active {
+  background-color: white;
+}
+.box {
+  cursor: pointer;
+}
+@media (max-width: 767.999px) {
+  .box {
+    width: 80% !important;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(31, 31, 31);
+    line-height: 50px !important;
+  }
+}
+@media (min-width: 768px) {
+  .box {
+    width: 30% !important;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(31, 31, 31);
+    line-height: 60px !important;
+  }
+}
+.contain2 {
+  margin-top: 5%;
+}
+.c {
+  padding-bottom: 5%;
+  border-bottom: 1px rgb(217, 215, 215) solid;
+}
+i {
+  color: white;
+  font-size: 30px;
+}
+.k {
+  width: 75px;
+  height: 75px;
+  background-color: #5db2ff;
+  border-radius: 60px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 650;
+  color: rgb(31, 31, 31);
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+p {
+  color: rgb(148, 146, 146);
+  line-height: 28px;
+  margin-bottom: 0px;
+  font-size: 15px;
+}

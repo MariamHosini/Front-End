@@ -1,0 +1,50 @@
+img {
+  height: 40px;
+  width: 150px;
+}
+.bg {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+nav {
+  background-color: none !important;
+}
+a {
+  color: #7f7d7d !important;
+  font-weight: 700;
+  font-size: 13px;
+}
+a:hover {
+  color: rgb(108, 107, 107) !important;
+}
+
+.buttonA {
+  background-color: rgb(75, 165, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid rgb(75, 165, 255);
+}
+
+.buttonA:hover {
+  color: rgb(75, 165, 255);
+  background-color: white;
+  border: 1px solid rgb(75, 165, 255);
+}
+.button {
+  background-color: rgb(75, 165, 255);
+  width: 100%;
+  outline-style: none;
+}
+.button:focus {
+  border: none;
+  outline-style: none;
+}
+.marg {
+  margin-left: -10px;
+  margin-bottom: -15px;
+}
+.l {
+  top: 50px;
+}

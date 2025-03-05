@@ -1,0 +1,18 @@
+.contain {
+  background-color: black;
+}
+p {
+  color: #bababa;
+}
+a {
+  text-decoration: none;
+  color: #3c9aff !important;
+}
+i {
+  color: #bababa;
+}
+.contain div {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}

@@ -1,0 +1,25 @@
+._card {
+  background-color: #8dc8ff;
+}
+.middle_card {
+  background-color: #5db2ff;
+}
+._card div h3,
+._card div p {
+  color: white;
+}
+
+.middle_card div h3,
+.middle_card div p {
+  color: white;
+}
+i {
+  color: white;
+  font-size: 50px;
+}
+._btn {
+  font-size: 14px;
+}
+._btn:hover {
+  color: #5db2ff;
+}

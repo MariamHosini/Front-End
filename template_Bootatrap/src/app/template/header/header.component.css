@@ -1,0 +1,59 @@
+.bg {
+  background-color: #333;
+}
+.bg2 {
+  background-color: #222;
+}
+a {
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+img {
+  width: 110px !important;
+}
+nav {
+  height: 50px;
+}
+.height {
+  line-height: 100%;
+}
+.font {
+  font-size: 13px;
+}
+.width {
+  width: 110px;
+}
+@media screen and (min-width: 550px) {
+  .display {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+.icon {
+  font-size: 21px;
+}
+
+.bord {
+  border-left: #444 1px solid;
+}
+.cart {
+  background-color: rgb(87, 200, 12) !important;
+}
+.cart:hover {
+  background-color: black !important;
+}
+.icons:hover i,
+.icons:hover {
+  background-color: #222;
+  color: white !important;
+}
+.icons {
+  color: #9b9b9b;
+  cursor: pointer;
+}
+button {
+  background-color: #222;
+  color: #9b9b9b;
+  border: none;
+}

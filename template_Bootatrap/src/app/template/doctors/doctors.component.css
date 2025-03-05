@@ -1,0 +1,65 @@
+.contain {
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1f1f1f;
+  line-height: 1.2em;
+}
+button {
+  background-color: white;
+  color: rgb(75, 165, 255);
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid rgb(75, 165, 255);
+  font-size: 15px;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(75, 165, 255);
+  border: 1px solid rgb(75, 165, 255);
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  transition: 0.2s ease-in-out;
+}
+span {
+  color: #919191;
+  font-size: 13px;
+  transition: color 0.2s ease-in-out;
+}
+.txt {
+  background-color: #edf7ff;
+  padding: 5%;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+.doctor-card img {
+  transition: transform 0.2s ease-in-out;
+}
+.doctor-card {
+  overflow: hidden;
+}
+.q:hover img {
+  transform: scale(1.1);
+}
+.q:hover .txt {
+  background-color: #5db2ff;
+}
+.q:hover .txt h4 {
+  color: white;
+}
+.q:hover .txt span {
+  color: white;
+}

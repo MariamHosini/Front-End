@@ -1,0 +1,25 @@
+div {
+  background-color: #f5fbff;
+}
+.color {
+  color: #9b9b9b;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 12px;
+}
+.color:hover {
+  color: rgb(75, 165, 255);
+}
+.color2 {
+  color: rgb(75, 165, 255);
+}
+a {
+  text-decoration: none;
+  color: #9b9b9b;
+  font-size: 12px;
+}
+@media (max-width: 376px) {
+  .width {
+    width: 90%;
+  }
+}
